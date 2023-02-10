@@ -9,8 +9,10 @@
 #### Now that we know our dataset, we needed to minimize and remove some of the columns we deemed irrelevant for our use with this project. This also allowed us to shrink down the data enough to be uploaded to GitHub and to be cleaned. For this project we decided to use Jupyter Notebook to show our work and to use Tableau to create the visualizations. We will also use CSV’s to upload our cleaned and updated data into.
 
 ### Roles:
+
 #### Kristina: Tasked with creating the readme and creating a Randome Forest model.
 #### CC: Visualization work and readme.
-#### Dillon: Tasked with the initial cleaning of the data set and creating a Linear Regression model. Initially with my dataset, I wanted to see if a linear regression model might be able to show a correlation between the genre of a film and the average score the audience rated the film. Naturally I ran the machine learning model and received a little to no correlation between average vote and genre. In our dataset, there are several other columns such as tension, rhythm, erotism, etc. I was curious about these various columns and what they mean. When splitting the data and seeing if the popular films, where the average score was greater than 7 out of 10, correlated with eoritsm, rhythm, effort, my linear regression model yielded an r-squared of 81%. 
 #### Karina: Tasked with creating a Logistic Regression model.
-#### Group: Undecided specifics of visualization work.
+#### Dillon: Tasked with the initial cleaning of the data set and creating a Linear Regression model. Initially with my dataset, I wanted to see if a linear regression model might be able to show a correlation between the genre of a film and the average score the audience rated the film. Naturally I ran the machine learning model and received a little to no correlation between average vote and genre. In our dataset, there are several other columns such as tension, rhythm, erotism, etc. I was curious about these various columns and what they mean. When splitting the data and seeing if the popular films, where the average score was greater than 7 out of 10, correlated with eoritsm, rhythm, effort, my linear regression model yielded an r-squared of 81%. 
+
+
