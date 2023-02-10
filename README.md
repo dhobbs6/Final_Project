@@ -11,7 +11,7 @@
 
 ### Roles:
 
-#### Kristina: Tasked with creating the readme and creating a Randome Forest model.
+#### Kristina: Tasked with creating the readme and creating a Randome Forest model.Once the dataset was clean, I focused on deciding which columns needed to be dropped or processed numerically. Once that was done, I created an initial random forest model. This initial attempt had a 97% accuracy rate, and I will continue to utilize different variables to see how that affects the model's results. 
 #### CC: Visualization work and readme editing.
 #### Karina: Tasked with creating a Logistic Regression model. Using the clean dataset, I wanted to see the logistic regression model comparing the average vote and duration. There ended up being a low balanced accuracy score, being 56.8%. I further investigated which other values would contribute in yeilding a higher balanced accuracy score. I then changed to the humor, rhythm, effort, tention, and erotism and got a balanced accuracy score of 70.0%. I will continue to investigate which values would contribute to a higher balanced accuracy score.
 #### Group: Undecided specifics of visualization work.
