@@ -7,7 +7,7 @@
 
 ### Roles:
 #### Kristina: Tasked with creating the readme and creating a Randome Forest model.
-#### CC: Tasked with creating a SVM model.
+#### CC: Tasked with creating a SVM model and readme.
 #### Dillon: Tasked with the initial cleaning of the data set and creating a Linear Regression model. Initially with my dataset, I wanted to see if a linear regression model might be able to show a correlation between the genre of a film and the average score the audience rated the film. Naturally I ran the machine learning model and received a little to no correlation between average vote and genre. In our dataset, there are several other columns such as tension, rhythm, erotism, etc. I was curious about these various columns and what they mean. When splitting the data and seeing if the popular films, where the average score was greater than 7 out of 10, correlated with eoritsm, rhythm, effort, my linear regression model yielded an r-squared of 81%. 
 #### Karina: Tasked with creating a Logistic Regression model.
 #### Group: Undecided specifics of visualization work.
