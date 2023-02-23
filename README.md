@@ -68,6 +68,10 @@ I added from the release year of the film/tv, its duration, the top 5 countries 
 
 #### My final model essentially groups all of the previous variables as the X and compares them all to our typical y value: popular. This model offered the highest r-squared with an 82%. 
 
+#### Summary 
+
+#### The second machine learning model, which focuses on the tension, rhythm, erotism, effort, and humor features show that these elements play a larger role in yielding a higher r-squared when compared to genre, year, top countries, etc. This fits with our new research idea, which is movies are very complex and a lot of various elements play a role in yielding strong correlation with respect to the films average score. Initially we wanted to try and find a correlation between the average vote of a film and genre. After figuring out that this offered little to no correlation, we discovered that the tension, rhythm, erotism, effort, and humor features play a much larger role in people's liking of a film. The conclusion we have is that a film's rating, no matter the genre, depends more upon various descriptive elements. A film that is categorized as a comedy can score badly if the humor feature is rated low in the film. A more complex film, that has, let's say a high rating for all of the descriptive features, is more likely to have an overall higher film score as opposed to one that does not. The third model provided simply shows all of the descriptive features plus the other variables, shows that as you add complexitiy to the machine learning model, it will yield a higher r-squared. 
+
 
 ### Visualizations 
 #### CC's role: Editing our readme and creating visualizations that correlate with the team’s data. Created visualizations that showed how a movie’s duration can have an impact of ratings/votes. Movies that are “too short” had fewer ratings, however movies with longer durations had more votes/popularity. It was also found that specific genres change the impact of the subcategories, example; comedy was found to have higher results for humor and rhythm where as horror had lest humor and more tension.
@@ -83,9 +87,3 @@ I added from the release year of the film/tv, its duration, the top 5 countries 
 https://public.tableau.com/app/profile/comaneci.christie/viz/FinalProject_16765076708500/finalproject?publish=yes
 
 
-
-
-
-#### Summary 
-
-#### The second machine learning model, which focuses on the tension, rhythm, erotism, effort, and humor features show that these elements play a larger role in yielding a higher r-squared when compared to genre, year, top countries, etc. This fits with our new research idea, which is movies are very complex and a lot of various elements play a role in yielding strong correlation with respect to the films average score. Initially we wanted to try and find a correlation between the average vote of a film and genre. After figuring out that this offered little to no correlation, we discovered that the tension, rhythm, erotism, effort, and humor features play a much larger role in people's liking of a film. The conclusion we have is that a film's rating, no matter the genre, depends more upon various descriptive elements. A film that is categorized as a comedy can score badly if the humor feature is rated low in the film. A more complex film, that has, let's say a high rating for all of the descriptive features, is more likely to have an overall higher film score as opposed to one that does not. The third model provided simply shows all of the descriptive features plus the other variables, shows that as you add complexitiy to the machine learning model, it will yield a higher r-squared. 
