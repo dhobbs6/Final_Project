@@ -39,6 +39,10 @@ The humor, rhythm, effort, tension, and erotism were tested in this model. The b
 
 I added from the release year of the film/tv, its duration, the top 5 countries of release, top 5 genre, and the top actors from model 3. It yielded the highest balanced accuracy rate of 73.4%.
 
+##### Conclusion:
+As stated, this further fits the narrative that films and tv series are complex. There are various elements that play a role in yielding a high accuracy score. Film and TV series are rated by their descriptive elements rather the genre. We clearly see in the first model, duration alone was not enough to yield a high score. Model 2 did yield higher but not as high as the added elements on model 3. Model 4 had the most descriptive elements and yielded the highest balanced accuracy score.
+
+
 #### Group: Undecided specifics of visualization work.
 #### Dillon: Tasked with the initial cleaning of the data set and creating a Linear Regression model. Initially with my dataset, I wanted to see if a linear regression model might be able to show a correlation between the genre of a film and the average score the audience rated the film. Naturally, I ran the machine learning model and received a little to no correlation between average vote and genre. In our dataset, there are several other columns such as tension, rhythm, erotism, etc. Determining how these features are determined is not told to us by the Kaggle data-set page, so I am investigating how these numbers come about. Leaving that aside for now, when I split the data to see if the popular films, where the average score was greater than 7 out of 10, correlated with eoritsm, rhythm, effort, my linear regression model yielded an r-squared of 81%. After investigating to more into the tension, rhythm, erotism, effort, and humor features I discovered a couple of things. IMDB simply offers an overall score of a film not including features like effort, rhythm, erotism, etc. On the other hand, our dataset stems from an Italisn movie rating website, called filmtv.it, where they give an overall rating of a film, similar to that of IMDB, as well as a rating from 1-5 rating the tension, rhythm, erotism, effort, and humor of the film. With respect to the machine learning aspect of the project, my group chose my machine learning model as our main model. I've switched from my linear regression model to a Random Forest in order to better highlight the complex comparisons of my data. In using the Random Forest model I was able to produce 3 models that help tell our story. 
 
@@ -85,5 +89,4 @@ I added from the release year of the film/tv, its duration, the top 5 countries 
 
 #### To interact with the visualizations captured please follow this link
 https://public.tableau.com/app/profile/comaneci.christie/viz/FinalProject_16765076708500/finalproject?publish=yes
-
 
