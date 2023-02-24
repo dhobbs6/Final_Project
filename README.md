@@ -18,26 +18,26 @@
 ##### Model 1: Duration
 <img width="710" alt="Screenshot 2023-02-17 at 2 53 12 PM" src="https://user-images.githubusercontent.com/110318652/219778931-72c727c0-4e1e-4431-b526-5f0df09a8086.png">
 
-The avg_vote column was the target variable and I created a threshold of 7.0, meaning anything under would be considered unpopular. I also created a new column comparing the films popularity, zero meaning unpopular and one meaning popular. I set the X value as the duration column.
+#### The avg_vote column was the target variable and I created a threshold of 7.0, meaning anything under would be considered unpopular. I also created a new column comparing the films popularity, zero meaning unpopular and one meaning popular. I set the X value as the duration column.
 
 <img width="473" alt="Screenshot 2023-02-17 at 2 53 59 PM" src="https://user-images.githubusercontent.com/110318652/219778929-98eef7b8-5a74-4b2d-bd2c-9447f8832455.png">
 
-As shown above, the balanced accuracy score yields to 56.8%.
+#### As shown above, the balanced accuracy score yields to 56.8%.
 
 ##### Model 2: Tension
 <img width="472" alt="Screenshot 2023-02-17 at 3 05 33 PM" src="https://user-images.githubusercontent.com/110318652/219783245-baaa8f04-e5e9-4d70-983b-2f6e140bdd14.png">
 
-For this model, I set tension as my X variable. I yielded a balanced accuracy rate of 65.8%.
+#### For this model, I set tension as my X variable. I yielded a balanced accuracy rate of 65.8%.
 
 ##### Model 3: Humor, Rhythm, Effort, Tension, Erotism
 <img width="476" alt="Screenshot 2023-02-17 at 3 06 13 PM" src="https://user-images.githubusercontent.com/110318652/219783243-4db26336-318e-4980-b272-c6e0a1e5b253.png">
 
-The humor, rhythm, effort, tension, and erotism were tested in this model. The balanced accuracy rate was 70.1%.
+#### The humor, rhythm, effort, tension, and erotism were tested in this model. The balanced accuracy rate was 70.1%.
 
 ##### Model 4: Humor, Rhythm, Effort, Tension, Erotism, Year, Duration, Country, Genre, Top Actor
 <img width="471" alt="Screenshot 2023-02-17 at 3 13 04 PM" src="https://user-images.githubusercontent.com/110318652/219784092-aac2e58b-de64-47bc-925c-5b48feb65a95.png">
 
-I added from the release year of the film/tv, its duration, the top 5 countries of release, top 5 genre, and the top actors from model 3. It yielded the highest balanced accuracy rate of 73.4%.
+#### I added from the release year of the film/tv, its duration, the top 5 countries of release, top 5 genre, and the top actors from model 3. It yielded the highest balanced accuracy rate of 73.4%.
 
 ##### Conclusion:
 As stated, this further fits the narrative that films and tv series are complex. There are various elements that play a role in yielding a high accuracy score. Film and TV series are rated by their descriptive elements rather the genre. We clearly see in the first model, duration alone was not enough to yield a high score. Model 2 did yield higher but not as high as the added elements on model 3. Model 4 had the most descriptive elements and yielded the highest balanced accuracy score.
