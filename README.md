@@ -40,7 +40,7 @@
 #### I added from the release year of the film/tv, its duration, the top 5 countries of release, top 5 genre, and the top actors from model 3. It yielded the highest balanced accuracy rate of 73.4%.
 
 ##### Conclusion:
-As stated, this further fits the narrative that films and tv series are complex. There are various elements that play a role in yielding a high accuracy score. Film and TV series are rated by their descriptive elements rather the genre. We clearly see in the first model, duration alone was not enough to yield a high score. Model 2 did yield higher but not as high as the added elements on model 3. Model 4 had the most descriptive elements and yielded the highest balanced accuracy score.
+#### As stated, this further fits the narrative that films and tv series are complex. There are various elements that play a role in yielding a high accuracy score. Film and TV series are rated by their descriptive elements rather the genre. We clearly see in the first model, duration alone was not enough to yield a high score. Model 2 did yield higher but not as high as the added elements on model 3. Model 4 had the most descriptive elements and yielded the highest balanced accuracy score.
 
 
 #### Group: Undecided specifics of visualization work.
